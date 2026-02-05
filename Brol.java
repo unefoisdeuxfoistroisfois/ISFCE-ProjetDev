@@ -1,3 +1,6 @@
+import lombok.Data;
+
+@Data
 public class Brol {
 
   private String nom; //c'est celui qui va recevoir nom (String nom)
