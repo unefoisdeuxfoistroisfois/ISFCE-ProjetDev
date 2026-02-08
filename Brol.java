@@ -23,18 +23,13 @@ public class Brol {
   //  System.out.println("b1 même objet "+ (objet1 == objet2)); // savoir si les adresse son egaux
 
   //}
-  
-  public static void main(String[] args){
+  public static void main(String[] main){
+    Brol  objet1;
 
-    //new Brol("Eddy");
-
-    System.out.println(new Brol("Eddy"));
-  }
-
-  public static void main(String[] args) {
-    Brol objet1;
-
-    objet1 = new Brol("Nicole");
+    objet1 = new Brol("Bradley");
     System.out.println(objet1);
+
+    System.out.println(new Brol("Brad"));
+
   }
 }
