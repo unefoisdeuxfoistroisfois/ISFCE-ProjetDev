@@ -10,17 +10,31 @@ public class Brol {
     this.nom = nom;
   }
 
+  //public static void main(String[] args) {
+  //  Brol objet1;
+  //  Brol objet2;
+
+  //  objet1 = new Brol("Bradley");
+  //  objet2 = new Brol("Bradley");
+
+  //  System.out.println(objet1);
+  //  System.out.println(objet2);
+  //  System.out.println("objet1 = objet2 "+ objet1.equals(objet2));
+  //  System.out.println("b1 même objet "+ (objet1 == objet2)); // savoir si les adresse son egaux
+
+  //}
+  
+  public static void main(String[] args){
+
+    //new Brol("Eddy");
+
+    System.out.println(new Brol("Eddy"));
+  }
+
   public static void main(String[] args) {
     Brol objet1;
-    Brol objet2;
 
-    objet1 = new Brol("Bradley");
-    objet2 = new Brol("Bradley");
-
+    objet1 = new Brol("Nicole");
     System.out.println(objet1);
-    System.out.println(objet2);
-    System.out.println("objet1 = objet2 "+ objet1.equals(objet2));
-    System.out.println("b1 même objet "+ (objet1 == objet2)); // savoir si les adresse son egaux
-
   }
 }
