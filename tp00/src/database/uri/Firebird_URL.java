@@ -3,13 +3,13 @@
  *
  */
 
-package databases.uri;
+package database.uri;
 
 public class Firebird_URL implements IDbURL {
 
 	@Override
 	public String getUrl() {
-		return "jdbc:firebirdsql:";
+		return iDbUrl.buildMemURL(file);
 	}
 
 	/**
